@@ -28,7 +28,7 @@ pip install torch torchvision
 ## 4. 运行方式
 
 ```bash
-python mnist_cnn.py
+python main.py
 ```
 
 默认参数：
@@ -42,7 +42,7 @@ python mnist_cnn.py
 也可以自定义参数，如：
 
 ```bash
-python mnist_cnn.py --epochs 5 --batch_size 128 --lr 0.001 --show_count 10
+python main.py --epochs 5 --batch_size 128 --lr 0.001 --show_count 10
 ```
 
 ## 5. 输出内容说明
